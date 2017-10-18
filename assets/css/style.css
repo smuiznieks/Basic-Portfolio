@@ -1,9 +1,15 @@
+html, body {
+	height: 100%;
+}
+
 body {
 	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
 	color: #777777;
 	line-height: 1.5;
 	overflow: auto;
 	margin: 0;
+	display: flex;
+	flex-direction: column;
 }
 
 h1, h2, h3, h4 {
@@ -60,7 +66,7 @@ nav {
 
 .nav li {
 	list-style: none;
-	display: inline;
+	display: inline-block;
 	padding: 10px;
 	margin: 0;
 }
@@ -70,8 +76,13 @@ nav {
 	color: #cccccc;
 }
 
+a:hover {
+	color: #007F79;
+}
+
 section {
 	background-image: url("../images/vertical-waves.png");
+	flex: 1 0 auto;
 }
 
 .container {
@@ -127,6 +138,10 @@ textarea {
 	font-size: 16px;
 }
 
+.submit:hover {
+	background-color: #007F79;
+}
+
 .portfolio img {
 	width: 274px;
 	height: 200px;
@@ -168,3 +183,4 @@ footer {
 	display: block;
 	clear: both;
 }
+
