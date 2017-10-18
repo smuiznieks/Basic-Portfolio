@@ -3,6 +3,7 @@ body {
 	color: #777777;
 	line-height: 1.5;
 	overflow: auto;
+	margin: 0;
 }
 
 h1, h2, h3, h4 {
