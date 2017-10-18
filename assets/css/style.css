@@ -127,24 +127,19 @@ textarea {
 	font-size: 16px;
 }
 
-.portfolio {
-	display: inline;
-	position: relative;
-}
-
 .portfolio img {
 	width: 274px;
 	height: 200px;
-	/* position: absolute;
-    z-index: 1; */
+	margin-bottom: 40px;
 }
 
 .portfolio h4 {
 	width: 274px;
 	padding: 20px 0 20px 0;
 	font-size: 18px;
-	/* position: absolute;
-    z-index: 2; */
+	position: absolute;
+	z-index: 2;
+	bottom: 40px;
 }
 
 .portfolio1, .portfolio3, .portfolio5 {
@@ -153,6 +148,10 @@ textarea {
 
 .portfolio2, .portfolio4 {
 	float: right;
+}
+
+.portfolio1, .portfolio2, .portfolio3, .portfolio4, .portfolio5 img {
+	position: relative;
 }
 
 footer {
