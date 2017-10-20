@@ -67,8 +67,14 @@ nav {
 .nav li {
 	list-style: none;
 	display: inline-block;
-	padding: 10px;
-	margin: 0;
+	border-right: 1px solid #dddddd;
+	margin: 0 10px 0 0;
+	padding: 0 10px 0 0;
+}
+
+.nav :last-child {
+	content: '';
+	border-right: 0;
 }
 
 .nav a {
@@ -90,7 +96,7 @@ section {
 	margin: auto;
 }
 
-main {
+article {
 	width: 650px;
 	margin-right: 40px;	
 	float: left;
@@ -105,7 +111,7 @@ aside img {
 	width: 60px;
 }
 
-main, aside {
+article, aside {
 	border: 1px solid #dddddd;
 	padding: 30px;
 	box-sizing: border-box;
